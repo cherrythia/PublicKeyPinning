@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C5B0AF92BF66A7A00164BD3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5B0AF82BF66A7A00164BD3 /* Alamofire.framework */; };
 		3C5B0AFD2BF66CE500164BD3 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B0AFC2BF66CE500164BD3 /* Response.swift */; };
-		3C5B0B002BF67A5E00164BD3 /* cert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B0AFF2BF67A5E00164BD3 /* cert.cer */; };
-		3C5B0B032BF67DC900164BD3 /* www.dbs.com.sg.der in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B0B022BF67DC900164BD3 /* www.dbs.com.sg.der */; };
+		3C5B0B092BF7EFE800164BD3 /* www.dbs.com.sg.der in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B0B082BF7EFD600164BD3 /* www.dbs.com.sg.der */; };
 		3C69ABF5ED88325D28C117D9 /* Pods_CertificatePinning_CertificatePinningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4177C3E750FE76F53A13646C /* Pods_CertificatePinning_CertificatePinningUITests.framework */; };
 		3CF6B9A62BF654FD005A882B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6B9A52BF654FD005A882B /* AppDelegate.swift */; };
 		3CF6B9A82BF654FD005A882B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6B9A72BF654FD005A882B /* SceneDelegate.swift */; };
@@ -50,8 +49,7 @@
 		3C5B0AF42BF66A1E00164BD3 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5B0AF82BF66A7A00164BD3 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5B0AFC2BF66CE500164BD3 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		3C5B0AFF2BF67A5E00164BD3 /* cert.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert.cer; sourceTree = "<group>"; };
-		3C5B0B022BF67DC900164BD3 /* www.dbs.com.sg.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = www.dbs.com.sg.der; sourceTree = "<group>"; };
+		3C5B0B082BF7EFD600164BD3 /* www.dbs.com.sg.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = www.dbs.com.sg.der; sourceTree = "<group>"; };
 		3CF6B9A22BF654FD005A882B /* CertificatePinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CertificatePinning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF6B9A52BF654FD005A882B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF6B9A72BF654FD005A882B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,8 +138,7 @@
 		3CF6B9A42BF654FD005A882B /* CertificatePinning */ = {
 			isa = PBXGroup;
 			children = (
-				3C5B0B022BF67DC900164BD3 /* www.dbs.com.sg.der */,
-				3C5B0AFF2BF67A5E00164BD3 /* cert.cer */,
+				3C5B0B082BF7EFD600164BD3 /* www.dbs.com.sg.der */,
 				3CF6B9A52BF654FD005A882B /* AppDelegate.swift */,
 				3CF6B9A72BF654FD005A882B /* SceneDelegate.swift */,
 				3CF6B9A92BF654FD005A882B /* ViewController.swift */,
@@ -294,11 +291,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5B0B092BF7EFE800164BD3 /* www.dbs.com.sg.der in Resources */,
 				3CF6B9AF2BF654FE005A882B /* Assets.xcassets in Resources */,
-				3C5B0B032BF67DC900164BD3 /* www.dbs.com.sg.der in Resources */,
 				3CF6B9B22BF654FE005A882B /* Base in Resources */,
 				3CF6B9AD2BF654FD005A882B /* Base in Resources */,
-				3C5B0B002BF67A5E00164BD3 /* cert.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
